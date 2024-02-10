@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+    <body style="font-family: Helvetica, Noto Sans, sans-serif;         background-image: url(./Background.jpg); background-size: cover; overflow: scroll;
+">
+      <div style="position: sticky; width: 100%; display: flex; backdrop-filter: blur(10px); background-color: rgba(252, 216, 235, 0.44); color: #fff; justify-content: space-between;border-radius: 16px; padding: 3px; backdrop-filter: blur(10px);">
+          <p>
+              Shehacks by Girls in Tech
+          </p> 
+          <p id="timeElement">
+            <script src="script.js">
+              
+            </script>
+
+          </p>
+      </div>
+
+      <div id="welcome" style="
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        padding: 13px; 
+        border: solid; 
+        background-color: white;
+        width: 300px; 
+        margin-top: 0px;
+        ">
+      
+        
+
+        <img src="data:image/png;base64,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" />
+      <h1 style="margin: 1px;">SheHacks</h1>
+      <p>She Hacks is an all-female and non-binary hackathon aimed at bridging the gender gap in the field of technology. We were frustrated with the current gender imbalance and so made it our mission is to inspire and encourage more young women to explore the opportunities in tech, regardless of their programming experience.
+      </p>
+      <a href="https://forms.gle/xr9ipfkiNhzmzSrKA">sign up here!</a> <br> 
+        <p> Our Location: Microsoft Office, Singapore (182 Cecil St, #13-01, Singapore 069547) </p>
+  
+  
+    </div>
+    <div style="
+      padding: 13px; 
+      border: solid; 
+      background-color: white;
+      width: 300px; 
+      margin-top: 30px;
+      position: absolute;
+      right:30px;
+      ">
+      <h3>
+        Our Schedule
+      </h3>
+      <p>
+          <b> Day 1: Saturday 24th February 2024</b> <br>
+        9:00 - 9:30:    Registration <br>
+        9:30 - 10:30:   Keynote speaker + introduce SheHacks theme  <br>
+        10:30 - 11:30:   Meet with groups (ideation and start project)  <br>
+        11:30 - 12:30:   Lunch break <br>
+        12:30 - 1:30:     First round of 101 Workshops <br>
+        1:30 - 3:30:    Meet with mentors and continue project work <br>
+        3:30 - 4:30:    Second round of 101s <br>
+        4:30 - 5:30:  Continue working on projects  <br>
+        <br> 
+        <b> Day 2: Sunday 25th February 2024</b> <br>
+        9:00 - 9:30:   Walking through Judging criteria + Pitching 101 <br>
+        9:30 - 11:30:   Continuing project work <br> 11:30 - 12:30:   Lunch break <br> 12:30 - 2:00:   Continuing project work <br> 2:00 - 4:00  Pitching (3 minute pitch followed by 2 minute Q+A) <br> 4:00 - 4:45:    Finalists pitching  <br> 4:45 - 5:15:    Winners announced, event concluded
+        
+
+      </p>
+      
+    </div>
+    <div style="
+      padding: 13px; 
+      border: solid; 
+      background-color: white;
+      width: 300px; 
+      margin-top: 30px;
+      
+      
+      ">
+      <h3>
+        Our Background
+      </h3>
+      <p>
+      <b> 2019 </b> - was an incredible start for SheHacks - it was amazing to see so many girls turn up and explore their interests in coding. Paired with industry professionals, it was an inspiring and educational event for so many. <br>
+      ​
+      <b> 2020 </b>, struck with COVID-19, we held a virtual hackathon. Although faced with new challenges, again, as always we were impressed with the quality of work produced during the hackathon. ​ <br>
+
+      In <b> 2021 </b>, we hosted a successful virtual conference, inviting girls across the region to participate. The event exemplified our commitment to inclusivity, providing a platform for skill development and collaboration in STEM. <br>
+
+      Luckily in <b> 2022 </b>, we were able to host an in-person hackathon on UWC campus! Across 2 days, participants got the exciting chance to hear from inspiring speakers, learn new technical skills from mentors and build a project. <br>
+
+      Again in <b> 2023 </b>, we were able to host yet another successful hackathon by hosting judges and mentors from top STEM fields. It was a great opportunity for girls with minimal exposure to the field to truly immerse themselves. <br>
+
+      In <b> 2024 </b>, we aim to produce an event where girls get to explore their passion for STEM in a workplace environment, that inspires their curiosity and motivates them to create the most successful projects. This year, SheHacks will be hosted at (TBD), along with the help of top STEM industry professionals to help create an the impact on participants. Hope to see you there! <br> <br>
+      </p>
+
+    </div>
+  </body>
+
+</html>
